@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+.section-2 {
+  display: grid;
+  height: 800px;
+  width: 100%;
+  background-color: hsl(220, 16%, 96%);
+  grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr 0.5fr 1fr 1fr 1fr;
+  gap: 15px;
+  line-height: 1.7;
+  opacity: 70%;
+}
+.section-2 .section-2-hero {
+  grid-area: 2/2/3/5;
+}
+.section-2 .section-2-hero .section-2-hero-heading {
+  line-height: 120px;
+  font-weight: 100;
+  font-size: 46px;
+}
+.section-2 .section-2-hero .section-2-hero-para {
+  font-weight: 300;
+  font-size: 18px;
+  opacity: 50%;
+  font-size: 20px;
+}
+.section-2 .feature-heading {
+  line-height: 3.5;
+  font-weight: 300;
+  font-size: 28px;
+}
+.section-2 .feature-para {
+  font-size: px;
+}
+.section-2 .section-2-feature-1 {
+  grid-area: 4/2/6/3;
+  line-height: 2;
+}
+.section-2 .section-2-feature-2 {
+  grid-area: 4/3/6/4;
+  line-height: 2;
+}
+.section-2 .section-2-feature-3 {
+  grid-area: 4/4/6/5;
+  line-height: 2;
+}
+.section-2 .section-2-feature-4 {
+  grid-area: 4/5/6/6;
+  line-height: 2;
+}/*# sourceMappingURL=index.css.map */
