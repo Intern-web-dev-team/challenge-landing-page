@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .nav-elements {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
